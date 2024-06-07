@@ -1,0 +1,31 @@
+@import url('./reset.css');
+@import url('./secao-informacoes-perfil.css');
+@import url('./navbar.css');
+
+body{
+  background-color: var(--fundo-escuro);
+}
+
+a{
+  color: var(--primario);
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+.botao-primario{
+  background-color: var(--primario);
+}
+
+.botao-secundario{
+  background: transparent;
+  color: var(--primario);
+  border: 1px solid var(--primario);
+}
