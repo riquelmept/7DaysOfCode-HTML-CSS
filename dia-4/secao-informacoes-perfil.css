@@ -4,6 +4,8 @@ section.card{
     background-color: var(--fundo-card);
     border-radius: .8rem;
     line-height: 1.25;
+    max-width: 1200px; /* Adicione esta linha para limitar a largura da seção */
+    margin: 5px auto; /* Adicione esta linha para centralizar a seção */
   }
   
   .card.informacoes-perfil{
